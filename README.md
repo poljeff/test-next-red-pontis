@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Proyecto de Prueba Técnica
 
-## Getting Started
+- desarrollo de un catálogo y lista de favoritos con Next js
 
-First, run the development server:
+## Librerías y Bibliotecas Utilizadas
+
+- **Next**: Utilicé React como mi biblioteca principal para construir la interfaz de usuario. React es ampliamente utilizado y proporciona una estructura organizada para crear componentes reutilizables.
+
+- **Tailwind CSS**: Utilicé Tailwind CSS como mi framework de estilos.
+
+## Implementación del SEO
+
+Además de la funcionalidad principal, también implemente técnicas de SEO para mejorar la visibilidad en los motores de búsqueda. He optimizado las etiquetas HTML y metadatos, lo que mejora la indexación y la clasificación en los resultados de búsqueda. Esto asegura que la aplicación sea más fácilmente descubrible por los motores de búsqueda, lo que es esencial para atraer tráfico y usuarios.
+
+He tenido en cuenta los siguientes aspectos clave de SEO para la vista del detalle del producto:
+
+- **Título de Página Principal**: se muestra la el Nombre del producto.
+
+- **Meta Descripciones Relevantes**: se muestra una descripción del producto.
+
+## Otras Consideraciones
+- **Uso de componente <Image /> de Next **: se recomienta el uso de este componente ya qye agrega rendimiento, accesibilidad y buenas prácticas SEO.
+
+- **URLs Legibles**: Las URLs de las páginas son legibles y reflejan la estructura de la aplicación.
+
+- **Atributo Alt para Imágenes**: Se han proporcionado el atributo “alt” descriptivas para las imágenes .
+
+- **Uso de customHooks**: se usan custmHooks para la reutilización y separación de responsabilidades.
+
+## Cómo Levantar el Proyecto
+
+1. Clona este repositorio en tu máquina local utilizando el siguiente comando:
+
+`git clone git@github.com:poljeff/test-next-red-pontis.git`
+
+2. Entra en el directorio del proyecto:
+
+`cd wish-list-next`
+
+3. Asegúrate de tener la versión 18 de Node.js instalada. Si no la tienes, puedes actualizarla utilizando Node.js oficial.
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+  npm -v
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Instala las dependencias necesarias:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+  npm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+5. Inicia la aplicación en modo de desarrollo:
 
-## Learn More
+```bash
+  npm run dev
+```
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+6. Abre tu navegador y ve a `http://localhost:3000` para ver la aplicación en acción.
